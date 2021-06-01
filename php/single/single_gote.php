@@ -24,7 +24,7 @@
     function keikoku() {
       if (window.confirm("このままページを離れるとゲームは振り出しに戻ります。離れる場合は「はい」、取り消す場合は「取消」をクリックしてください。")) {
         window.alert("今回はヨット -Yacht-を遊んでいただき、ありがとうございました。またのお越しをお待ちしております。");
-        document.location.href = "../../top.php";
+        document.location.href = "../../top.html";
       } else {};
     }
 

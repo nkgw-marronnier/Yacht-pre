@@ -71,7 +71,7 @@
 
     ?>
 
-    <input type="submit" class="botan" name="submit" value="広場へ戻る" onClick="location.href='../../top.php'">
+    <input type="submit" class="botan" name="submit" value="広場へ戻る" onClick="location.href='../../top.html'">
 
   </div>
 
