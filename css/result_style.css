@@ -1,0 +1,79 @@
+body {
+  width: 95%;
+  background-color: #eeeeee;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+canvas {
+  z-index: -9999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 59px;
+  color: white;
+  margin-top: -10px;
+  margin-bottom: -15px;
+}
+
+table.score {
+  border-collapse: collapse;
+  border: solid 5px #aaeeb3;
+  font-size: 18px;
+  text-align: center;
+  width: 300px;
+  color: white;
+  background-color: #00aa00;
+  margin-left: 40px;
+}
+
+tr.score,
+td.score {
+  border: solid 5px #ffffff;
+  border-radius: 5px;
+}
+
+.kekka {
+  font-size: 25px;
+  color: white;
+}
+
+.happyou {
+  font-size: 40px;
+  color: rgb(255, 24, 24);
+}
+
+.namae {
+  font-size: 35px;
+  color: white;
+}
+
+.ray {
+  width: 400px;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 210px;
+}
+
+.botan {
+  -webkit-appearance: none;
+  width: 150px;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 11px 0 12px;
+  background: #da1515;
+  border-color: rgb(255, 0, 149);
+  border-radius: 10px;
+  margin-left: 120px;
+  margin-top: 15px;
+  cursor: pointer;
+}

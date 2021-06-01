@@ -1,0 +1,253 @@
+body {
+  -webkit-text-size-adjust: 100%;
+  width: 95%;
+  background-color: #eeeeee;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+canvas {
+  z-index: -9999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  margin: 0px;
+}
+
+strong.teban {
+  font-size: 20px;
+  color: white;
+}
+
+strong.namae {
+  font-size: 35px;
+  color: white;
+}
+
+table.score {
+  border-collapse: collapse;
+  border: solid 5px #aaeeb3;
+  font-size: 18px;
+  text-align: center;
+  width: 300px;
+  color: white;
+  background-color: #00aa00;
+}
+
+tr.score,
+td.score {
+  border: solid 5px #ffffff;
+  border-radius: 5px;
+}
+
+table.yaku {
+  position: relative;
+  border-collapse: collapse;
+  border: solid 5px #ccccff;
+  background-color: #147fd6;
+  border-radius: 10px;
+  font-size: 40px;
+  color: white;
+  /*文字色*/
+  text-align: center;
+  margin-top: -120px;
+  margin-left: 0px;
+  float: left;
+}
+
+tr.yaku,
+td.yaku {
+  border-collapse: collapse;
+  border: solid 5px #ffffff;
+  border-color: white;
+  border-radius: 5px;
+  background-color: #00aa00;
+}
+
+.scorehyou {
+  display: block;
+  float: left;
+  width: 250px;
+}
+
+.furu {
+  display: block;
+  float: left;
+  margin-left: -10px;
+  width: 50px;
+  margin-top: 50px;
+}
+
+.botangun {
+  display: block;
+  float: left;
+  width: 150px;
+  margin-top: 55px;
+}
+
+.botankoko {
+  -webkit-appearance: none;
+  position: relative;
+  -webkit-text-size-adjust: 100%;
+  width: 100px;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 11px 0 10px;
+  background: #46bd21;
+  border-color: rgb(102, 255, 0);
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.botankoko:disabled {
+  -webkit-appearance: none;
+  position: relative;
+  width: 100px;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 11px 0 10px;
+  background: #888888;
+  border-color: gray;
+  border-radius: 9px;
+  cursor: not-allowed;
+}
+
+.furukoko {
+  -webkit-appearance: none;
+  position: relative;
+  -webkit-text-size-adjust: 100%;
+  float: left;
+  width: 200px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 10px 0 10px;
+  background: #1985c4;
+  border-color: rgb(0, 174, 255);
+  border-radius: 10px;
+  margin: 400px -240px;
+  cursor: pointer;
+}
+
+.furukoko:disabled {
+  -webkit-appearance: none;
+  position: relative;
+  -webkit-text-size-adjust: 100%;
+  float: left;
+  width: 200px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 10px 0 10px;
+  background: #888888;
+  border-color: gray;
+  border-radius: 10px;
+  margin: 400px -240px;
+  cursor: not-allowed;
+}
+
+.koma {
+  float: left;
+  display: block;
+  margin-left: 80px;
+  width: 100px;
+  margin-top: 50px;
+}
+
+.keisan {
+  -webkit-appearance: none;
+  position: relative;
+  -webkit-text-size-adjust: 100%;
+  width: 150px;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 10px 0 10px;
+  background: #da1515;
+  border-color: rgb(255, 0, 98);
+  border-radius: 10px;
+  margin: 0 100px;
+  cursor: pointer;
+}
+
+.keisan:disabled {
+  -webkit-appearance: none;
+  position: relative;
+  -webkit-text-size-adjust: 100%;
+  width: 150px;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 10px 0 10px;
+  background: #888888;
+  border-color: gray;
+  border-radius: 10px;
+  margin: 0 100px;
+  cursor: not-allowed;
+}
+
+.setumei1 {
+  color: white;
+  font-size: 30px;
+  float: left;
+  margin-left: -300px;
+}
+
+.setumei2 {
+  color: white;
+  font-size: 30px;
+  float: left;
+  margin-left: -65px;
+}
+
+.restart {
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%;
+  width: 140px;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 10px 0 10px;
+  background: #da5315;
+  border-color: rgb(255, 166, 0);
+  border-radius: 10px;
+  margin-top: -65px;
+  margin-left: 520px;
+  cursor: pointer;
+}
+
+.keisanhyou {
+  width: 20px;
+  float: left;
+  height: 400px;
+  margin-left: -60px;
+  margin-top: -50px;
+}
+
+.hint {
+  margin-left: 720px;
+  margin-top: 620px;
+}
+
+a {
+  font-size: 20px;
+  color: white;
+}
